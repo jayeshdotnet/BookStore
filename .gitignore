@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/jk.BookStore/.vs/jk.BookStore
+/jk.BookStore/jk.BookStore/bin/Debug/net5.0
+/jk.BookStore/jk.BookStore/obj
