@@ -50,6 +50,9 @@ namespace jk.BookStore
             //});
 
             // Mapping the URL to a perticular resource 
+
+            app.UseStaticFiles();
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

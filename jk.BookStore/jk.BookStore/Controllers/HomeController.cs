@@ -9,9 +9,17 @@ namespace jk.BookStore.Controllers
     public class HomeController : Controller
     {
         // method 
-        public string Index()
+        public ViewResult Index()
         {
-            return "J";
+            return View();
+        }
+        public ViewResult AboutUs()
+        {
+            return View();
+        }
+        public ViewResult ContactUs()
+        {
+            return View();
         }
     }
 }
